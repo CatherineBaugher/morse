@@ -18,6 +18,7 @@ void draw(){
     for(int i = 0; i < words.length(); i++){
       transMorse(words.charAt(i));
     }
+    worbreak();
   }else{
     noLoop();
   }
